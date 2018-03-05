@@ -2,13 +2,13 @@
 #include<conio.h>
 void main()
 {
-int a[10],i,c;
+int a,i,c;
 cout<<"enter the elements";
-cin>>"a";
+cin>>a;
 {
-a++;
+a=a+1;
 }
-cout<<"the element is";
+cout<<"the element is"<<a;
 getch();
 }
 
